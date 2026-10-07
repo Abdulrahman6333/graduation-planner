@@ -25,6 +25,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add app.py payload app.py.gz app.py.gz.b64
+          git add -A
           git commit -m "Add application source" || exit 0
           git push
