@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.exe
+build/
+dist/
+*.spec
+.venv/
+venv/
+.env
+.env.*
+*.log
+.DS_Store
+student_data/
+private_data/
+reports/private/
+*.sqlite3
+*.db
